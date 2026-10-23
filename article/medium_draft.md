@@ -1,6 +1,6 @@
 # Four Kinds of NFL Wide Receiver: Clustering the 2025 Season by How Players Are Used
 
-*INST414 Module 3. Code and data: [GITHUB REPO URL PLACEHOLDER: https://github.com/johnpluto2k/nfl-player-clusters]*
+*INST414 Module 3. Code and data: [https://github.com/johnpluto2k/nfl-player-clusters](https://github.com/johnpluto2k/nfl-player-clusters)*
 
 ## The question
 
@@ -116,6 +116,6 @@ I used an AI assistant (Claude, through Claude Code) to write the download, feat
 
 Clustering 78 receivers on how they were used in 2025 gives four roles: Target hogs, Field stretchers, Secondary options and Screen & YAC weapons. Catch rate and YAC mostly come from the role, so a pro-personnel staff should build its board by cluster and judge players against others doing the same job.
 
-All code, data and results: [GITHUB REPO URL PLACEHOLDER: https://github.com/johnpluto2k/nfl-player-clusters]. The README explains how to re-run everything.
+All code, data and results: [https://github.com/johnpluto2k/nfl-player-clusters](https://github.com/johnpluto2k/nfl-player-clusters). The README explains how to re-run everything.
 
 **Sources and tools:** nflverse 2025 player stats and play-by-play (https://github.com/nflverse/nflverse-data); ESPN 2025 receiving stats for the spot check; Python 3.14 with requests, pandas, scikit-learn and matplotlib.
