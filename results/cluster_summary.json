@@ -1,0 +1,172 @@
+{
+  "n_wr_any_target": 223,
+  "n_wr_clustered": 78,
+  "min_targets": 50,
+  "features": [
+    "targets_per_game",
+    "target_share",
+    "air_yards_share",
+    "adot",
+    "yac_per_rec",
+    "catch_rate",
+    "deep_rate",
+    "behind_los_rate",
+    "rz_target_rate"
+  ],
+  "k": 4,
+  "final_silhouette": 0.2118,
+  "silhouette_k": {
+    "2": 0.2593,
+    "3": 0.215,
+    "4": 0.2133,
+    "5": 0.1883,
+    "6": 0.179,
+    "7": 0.1918,
+    "8": 0.1918,
+    "9": 0.2042,
+    "10": 0.202,
+    "11": 0.1965,
+    "12": 0.1996,
+    "13": 0.2005,
+    "14": 0.2063,
+    "15": 0.1983
+  },
+  "inertia_k": {
+    "2": 520.03,
+    "3": 412.52,
+    "4": 351.96,
+    "5": 318.42,
+    "6": 290.96,
+    "7": 261.85,
+    "8": 244.53,
+    "9": 220.94,
+    "10": 208.77,
+    "11": 196.28,
+    "12": 183.42,
+    "13": 175.85,
+    "14": 168.24,
+    "15": 158.13
+  },
+  "seed_ari_k": {
+    "2": 0.948,
+    "3": 0.9687,
+    "4": 0.7594,
+    "5": 0.6912,
+    "6": 0.6204,
+    "7": 0.6371,
+    "8": 0.6645,
+    "9": 0.7229,
+    "10": 0.6433,
+    "11": 0.6538,
+    "12": 0.6713,
+    "13": 0.5135,
+    "14": 0.5605,
+    "15": 0.5849
+  },
+  "cluster_sizes": {
+    "Target hogs": 17,
+    "Field stretchers": 27,
+    "Secondary options": 27,
+    "Screen & YAC weapons": 7
+  },
+  "examples": {
+    "Target hogs": {
+      "most_typical": [
+        "CeeDee Lamb",
+        "A.J. Brown",
+        "Drake London",
+        "Justin Jefferson"
+      ],
+      "most_targeted": [
+        "Ja'Marr Chase",
+        "Amon-Ra St. Brown",
+        "Puka Nacua",
+        "Jaxon Smith-Njigba"
+      ]
+    },
+    "Field stretchers": {
+      "most_typical": [
+        "Marvin Harrison Jr.",
+        "Tee Higgins",
+        "Jordan Addison",
+        "Parker Washington"
+      ],
+      "most_targeted": [
+        "Emeka Egbuka",
+        "Michael Wilson",
+        "Courtland Sutton",
+        "Davante Adams"
+      ]
+    },
+    "Secondary options": {
+      "most_typical": [
+        "Marquise Brown",
+        "Xavier Hutchinson",
+        "Ladd McConkey",
+        "Andrei Iosivas"
+      ],
+      "most_targeted": [
+        "Keenan Allen",
+        "Michael Pittman",
+        "Jakobi Meyers",
+        "Ladd McConkey"
+      ]
+    },
+    "Screen & YAC weapons": {
+      "most_typical": [
+        "Deebo Samuel Sr.",
+        "Malik Washington",
+        "Khalil Shakir",
+        "Chimere Dike"
+      ],
+      "most_targeted": [
+        "Deebo Samuel Sr.",
+        "Khalil Shakir",
+        "Rashee Rice",
+        "Chimere Dike"
+      ]
+    }
+  },
+  "pca_variance_explained": [
+    0.389,
+    0.2775
+  ],
+  "final_model_stability": {
+    "single_start_mean_ari": 0.6157,
+    "single_start_min_ari": 0.2609,
+    "final_inertia": 351.59,
+    "rerun_inertia_range": [
+      351.59,
+      352.13
+    ],
+    "players_always_same_cluster": 67,
+    "boundary_players": {
+      "Tre Tucker": 0.37,
+      "Rashid Shaheed": 0.37,
+      "Mack Hollins": 0.37,
+      "Jayden Higgins": 0.37,
+      "Keon Coleman": 0.37,
+      "Calvin Austin III": 0.37,
+      "Van Jefferson": 0.37,
+      "Nico Collins": 0.87,
+      "Tetairoa McMillan": 0.87,
+      "Romeo Doubs": 0.93,
+      "Jalen Nailor": 0.97
+    },
+    "n_init50_mean_ari": 0.8201,
+    "n_init50_min_ari": 0.7065,
+    "kmeans_vs_ward_ari": 0.6327
+  },
+  "pooled_epa_per_target": {
+    "Target hogs": 0.32,
+    "Field stretchers": 0.2353,
+    "Secondary options": 0.1619,
+    "Screen & YAC weapons": 0.1273
+  },
+  "pooled_yards_per_target": {
+    "Target hogs": 8.732,
+    "Field stretchers": 8.058,
+    "Secondary options": 7.319,
+    "Screen & YAC weapons": 7.148
+  }
+}

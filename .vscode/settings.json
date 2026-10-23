@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/../../Weekly — Labs & Quizzes/.venv/Scripts/python.exe",
+  "jupyter.notebookFileRoot": "${fileDirname}"
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "stats_player_reg_2025.csv": {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+      "downloaded_utc": "2026-10-23T19:37:07+00:00",
+      "bytes": 882104,
+      "sha256": "aaa8559478dd8d58569c93e278239e70e9411e79ee649c99d8d506030cd42b12"
+    },
+    "stats_player_week_2025.csv": {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2025.csv",
+      "downloaded_utc": "2026-10-23T19:37:08+00:00",
+      "bytes": 8656387,
+      "sha256": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2"
+    },
+    "play_by_play_2025.csv.gz": {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "downloaded_utc": "2026-10-23T19:37:10+00:00",
+      "bytes": 19105296,
+      "sha256": "2f135887790a013fd004e609e37096bb4816d5cc80b9f19122e1bad478961978"
+    }
+  },
+  "source": "nflverse-data GitHub releases, https://github.com/nflverse/nflverse-data"
+}
